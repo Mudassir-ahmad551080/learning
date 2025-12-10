@@ -1,5 +1,68 @@
 
-body.dark-theme{
-    background-color: black;
-    color: white;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+   overflow-x: scroll;
+    background-color: blue;
+    
+}
+
+#card{
+    height: auto;
+    width: 200px;
+    /* background-color: red; */
+    background-color: gray;
+    position: relative;
+}
+
+#image-div{
+    /* background-color: cyan; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(https://i.pinimg.com/736x/38/ed/6d/38ed6d7120bb550281c85ed65c3a901f.jpg);
+    background-size: cover;
+}
+
+#text-div{
+    width: 100%;
+    height: 100px;
+    /* background-color: cyan; */
+    margin-top: 180px;
+}
+
+/* #antoher-card{
+      height: 200px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(https://i.pinimg.com/736x/38/ed/6d/38ed6d7120bb550281c85ed65c3a901f.jpg);
+    background-size: cover;
+} */
+
+#cart{
+     
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(https://i.pinimg.com/736x/01/24/93/0124938ed99f8e534124a73be9b45727.jpg);
+    background-size: cover;
 }
